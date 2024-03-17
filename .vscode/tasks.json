@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Create AZW3 ebook",
+        "type": "shell",
+        "command": "ebook-convert index.html Laeremateriale_til_Indfodsretsproven.azw3 --level1-toc=//h:h1 --level2-toc=//h:h2 --level3-toc=//h:h3",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "Open AZW3 ebook",
+        "type": "shell",
+        "command": "ebook-viewer Laeremateriale_til_Indfodsretsproven.azw3",
+        "group": {
+          "kind": "none",
+          "isDefault": false
+        }
+      }
+    ]
+}

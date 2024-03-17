@@ -1,0 +1,12 @@
+{
+  "Image": {
+    "prefix": "img",
+    "description": "",
+    "body": [
+      "<p class=\"image\">",
+      "",
+      "<em></em>",
+      "</p>"
+    ]
+  }
+}
